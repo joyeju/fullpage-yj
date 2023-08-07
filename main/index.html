@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>원페이지 스크롤 연습</title>
+    <!-- 풀페이지 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- html문서  -->
+    <link href = "./sec1.css" rel="stylesheet">
+    <link href = "./sec2.css" rel="stylesheet">
+    <link href = "./sec3.css" rel="stylesheet">
+    <link href = "./sec4.css" rel="stylesheet">
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="myslick.js"></script>
+    <!-- xeicon -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body> 
+    <div id="fullpage">
+        <div class="section Se1" data-anchor="slide1">
+            <div><h1 class="main">portfolio</h1></div>
+              <div class='menu'>
+                  <ul>
+                      <li><a href="#slide2">Profile</a></li>
+                      <li><a href="#slide3">mini project</a></li>
+                      <li><a href="#slide4">gallery</a></li>
+                  </div>
+            </div>
+        <div class="section se2" data-anchor="slide2">
+          
+            <div class ="left">        
+                <h1 style="color:rgb(58, 54, 54)">PROFILE</h1>
+                <div><img src ="./images/my.jpeg"></div>
+                  <div class="probox">
+                      <div class="profi">
+                        <i class="xi-user-o xi-2x"></i><br />
+                        <i class="xi-cake xi-2x"></i><br />
+                        <i class="xi-call xi-2x"></i><br />
+                        <i class="xi-mail-o xi-2x"> </i><br />
+                    </div>
+                    <div class="profspan">
+                      <b>Jo YEJU </b><br /><br />
+                      <b>1990.06.08 </b><br /><br />
+                      <b>010-9107-8656 </b><br /><br />
+                      <b>yoohee90@naver.com </b><br />
+                  </div>
+              </div>
+
+            </div>
+            <div class ="right">
+              <div>
+                <h1 style="color:rgb(58, 54, 54)">SKILLS</h1>
+                <div class="rightbox">
+                  <!-- <img src="./images/html.png" class="rightIMG">
+                  <img src="./images/css.png" class="rightIMG">
+                  <img src="./images/jv.png" class="rightIMG">
+                  <img src="./images/jquery.png" class="rightIMG">
+                  <img src="./images/node.png" class="rightIMG">
+                  <img src="./images/react.png" class="rightIMG">
+                  <img src="./images/PS.png" style="width:50px; height: 50px; margin:10px;">
+                  <img src="./images/AI.png" style="width:50px; height: 50px; margin:10px;"> -->
+
+                </div>
+              </div>
+           </div>
+        </div>
+            
+        <div class="section se3" data-anchor="slide3"> 
+           <h1 id="mini" style="color:rgb(58, 54, 54)">MINI POJECT</h1>
+            <div class= "visual">
+              
+                <div class = "el"><a href="https://kind-shirley-4ff19a.netlify.app" target="_blank">
+                  <img src = "./images/todo.png"></a></div>
+                <div class = "el"><a href="https://cardapp-jyj.netlify.app" target="_blank">
+                  <img src = "./images/card.png"></a></div>
+                <div class = "el"><a href="https://suspicious-bartik-da5a5e.netlify.app" target="_blank">
+                  <img src = "./images/lotto.png"></a></div>
+                <div class = "el"><a href="https://mbti2-jo.netlify.app" target="_blank">
+                  <img src = "./images/mbti.png"></a></div>
+                <div class = "el"><a href="https://todoapp-yeju.netlify.app" target="_blank">
+                  <img src = "./images/time.png"></a></div>
+                <div class = "el"><a href="https://relaxed-yalow-e48984.netlify.app" target="_blank">
+                    <img src = "./images/ca.png"></a></div>
+                    <div class = "el"><a href="https://jyj-shopping1123.netlify.app" target="_blank">
+                      <img src = "./images/shopping.png"></a></div>
+            </div>
+        </div>
+        <div class="section se4" data-anchor="slide4" >
+            <div class="se4Sec">
+              <h1>Gallery</h1> <br />
+                <div class="BTN">
+                <button class="all-btn">All</button>
+                <button class="design-btn">Design</button>
+                <button class="web-btn">Web_D</button>
+                </div>
+                <div class="gallery_div">
+                <ul class="patterns">
+                  <li class="design-filter">
+                    <a href="./images/stroprint.png" target="_blank">
+                      <!-- <span src = "images/stroprint.png" style="width:180px; height: 250px;"> -->
+                        <span class="print" id="print">
+                          <b>Pattern Design</b>
+                        </span>
+                      </a>
+                  </li>
+                  <li class="design-filter">
+                    <a href="./images/BDprint.png" target="_blank">
+                      <span class="print">
+                        <b>Pattern Design</b>
+                      
+                      </span>
+                    </a>
+                  </li>
+                  <li class="design-filter">
+                    <a href="./images/roseprint.png" target="_blank">
+                      <span class="print">
+                        <b>Pattern Design</b>
+                        
+                      </span>
+                    </a>
+                  </li>
+                  <li class="design-filter">
+                    <a href="./images/STprint.png" target="_blank">
+                      <span class="print">
+                        <b>Pattern Design</b>
+                        
+                      </span>
+                    </a>
+                  </li>
+                  <li class="design-filter">
+                    <a href="./images/lineprint.png" target="_blank">
+                      <span class="print">
+                        <b>Pattern Design</b>
+                        </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./images/starbucks banner.png" target="_blank">
+                      <span class="web_D">
+                        <b>banner Design</b>
+                        </span>
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./images/homeDE.png" target="_blank">
+                      <span class="web_D">
+                        <b>page Design</b>
+                        </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+           </div>  
+        </div>
+    </div>
+
+<script src="fullpage.js"></script>
+<script type="text/javascript">
+
+$('.visual').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  arrows:true,
+  
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        
+      }
+
+    }
+    
+  ]
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'GongGothicMedium';
+}
+body{
+    margin:0
+}
+.main{
+    text-transform:uppercase;
+    font-size:72px;
+    font-family:'Verdana';
+    padding:30px;
+  }
+.menu{
+    position:fixed;
+    bottom:0;
+    align-items:right;
+    
+    height: 15%;
+    right: 10px;
+    float: right;
+    display:flex;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+    font-size:23px;
+}
+
+
+.section{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+.fp-tableCell{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.se3 > .fp-tableCell{
+    flex-direction: column;
+}
+.se4 > .fp-tableCell{
+    align-items: flex-start;
+}
+.meintext{
+    display: inline-block;
+    position: absolute;
+    background-color:rgba(148,187,233,1);
+    opacity: 0.6;
+}
+li{
+    list-style: none;
+    color:white;
+    margin:20px;
+    display: inline;
+    font-size: 16px;
+    
+}
+.meintext{
+    font-size: 52px;
+}
+
+.borderout{
+    border:12px solid black;
+    opacity: 0.7;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: -5px;
+}
+.borderIN{
+    border:12px solid black;
+    width: 500px;
+    height: 500px;
+    margin:130px;
+    display: inline-block;
+    transition: all ease 1s;
+}
+.borderIN:hover {
+    transform: rotate( 45deg );
+}

@@ -1,0 +1,52 @@
+.visual {
+    position: relative;
+    margin: 40px auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.el {
+    width: 350px;
+    height: 150px;
+   
+}
+
+.Tema{
+    display: flex;
+    font-size: 18px;
+    
+    box-sizing: border-box;
+    
+    
+}
+.visual button{
+    position:absolute; z-index:10 ; top:70%; 
+    transform:translateY(-50%);
+    width:71px; height:71px; border-radius: 100%; 
+    background:rgba(0,0,0,.5); border:none;}
+
+.visual button::before{font-family: 'xeicon'; color:white; font-size: 45px;}
+
+.visual button.slick-prev {left:-75px; font-size: 0; color:transparent;}
+
+.visual button.slick-prev:before{content:"\e93b"; font-family: 'xeicon';}
+
+.visual button.slick-next {right:-20px; font-size: 0; color:transparent;}
+
+.visual button.slick-next:before{content:"\e93e"; font-family: 'xeicon';}
+
+#mini{
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+section fp-section fp-table active fp-completely{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

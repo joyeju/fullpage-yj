@@ -1,0 +1,138 @@
+.se4{
+    margin:0;
+}
+.se4Sec > h1 {
+    text-align: center;
+    justify-content: center;
+}
+.se4Sec{
+    width:80%;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    display: table-column;
+   
+}
+
+ul.patterns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.se4Sec  li {
+    list-style: none;
+    color:white;
+}
+
+.se4Sec a span.print{
+    display: flex; width:180px; height: 180px;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.se4Sec a span.web_D{
+    display: flex; width:180px; height: 180px;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+ul.patterns li:nth-child(1) span{
+    background-image: url(./images/);
+}
+ul.patterns li:nth-child(2) span{
+    background-image: url(./images/);
+}
+ul.patterns li:nth-child(3) span{
+    background-image: url(./images/);
+}
+ul.patterns li:nth-child(4) span{
+    background-image: url(./images/);
+}
+ul.patterns li:nth-child(5) span{
+    background-image: url(./images/);
+}
+ul.patterns li:nth-child(6) span{
+    background-image: url(./images/starbucks\ banner.png);
+}
+ul.patterns li:nth-child(7) span{
+    background-image: url(./images/homeDIV.png);
+}
+
+.se4Sec a:hover span{
+    color: white;
+    transform: scale(1.05);
+    background-color: #aeaeae;
+    background-blend-mode: multiply;
+}
+.se4Sec a span b{
+    display: none;
+}
+
+.se4Sec a:hover span b{
+    display: inline;
+    
+}
+/* .se4Sec a span  p{
+    display: none;
+   
+}
+
+.se4Sec a:hover span p{
+    display: block;
+    
+   
+} */
+
+
+.se4Sec a:hover img{
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+.se4Sec  a {
+   
+    width:100%;
+    height: 100%;
+    margin:auto;
+    padding:auto;
+    overflow: hidden;
+    text-decoration-line:none;
+}
+.se4Sec img {
+    transition: 0.3s;;
+}
+.se4Sec  button{
+    color:rgba(255,255,255, 0.5);
+    color:black;
+    border:none;
+    width:150px;
+    height:30px;
+    text-align: center;
+    border-radius: 22px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin:auto;
+}
+.BTN{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+.BTN button{
+    background-color:transparent;
+    font-size: 22px;
+}
+
+.gallery_div{
+    border-top:2px solid rgba(255,255,255,0.3);
+    border-top-style: dashed;
+    padding-top:20px;
+}
